@@ -1,0 +1,32 @@
+*** Stripe Changelog ***
+
+2013.07.30 - version 2.2.3
+ * Update: Add more billing info of customer
+ * Compatible with woocommerce-subscriptions plugin v1.3.x
+ 
+2013.06.24 - version 2.2.2
+ * Update: Change form submit url
+ 
+2013.04.08 - version 2.2.1
+ * Fix bug: inlude js file instead of print code inline
+
+2013.03.16 - version 2.2.0
+ * Compatible to Woocommerce 2
+ * Allow custom language
+ * Update checkout flow
+ * Change option CCV to CVC
+	
+2012.11.20 - version 2.1.1
+ * Fix bug: Get error message
+	
+2012.11.10 - version 2.1
+ * Fix bug: Auto create plan intead
+	
+2012.09.28 - version 2.0
+ * Update: Support Subscription payment plugin
+ 
+2012.09.13 - version 1.0.1
+ * Fix bug: Check live mode
+
+2012.09.06 - version 1.0
+ * First Release

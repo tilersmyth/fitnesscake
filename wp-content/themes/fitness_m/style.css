@@ -1,0 +1,545 @@
+/*
+Theme Name: Fitness Main Site
+
+/* =Reset
+-------------------------------------------------------------- */
+
+.header_learn_more, .header_learn_more:hover{
+	color: #ffffff;
+	text-decoration: none;
+}
+.submit_error{
+	line-height: 2.4em;
+	margin-left: 10px;
+	color: #a94442;
+}
+
+.setup1{
+	max-width: 700px;
+	margin:0 auto;
+}
+
+.slider{margin: 0 20px;}
+
+.time_slider{
+	margin-top: 5px;
+}
+
+.signin_container, .user_container{
+	margin-top: 40px;
+}
+
+.settings_container{
+	margin-bottom: 50px;
+}
+
+.user_menu{
+	min-width: 130px;
+}
+
+.user_menu_icon{
+	margin-right: 4px;
+}
+
+.user_menu a:hover{
+	background: #00B4FF;
+	background: linear-gradient(top, #00B4FF, #009DE0);
+	background: -webkit-linear-gradient(top, #00B4FF, #009DE0);
+}
+
+.navbar-brand{
+	font-family: 'Bree Serif', serif !important;
+}
+
+.setup_subtext{
+	font-size: 16px;
+}
+
+.wrapper-backend{
+	margin-bottom: -60px;
+	padding-top: 50px;
+	padding-bottom: 60px;
+}
+
+.fitness_thumbs {
+	overflow: scroll;
+	padding: 0px !important;
+	max-height: 336px;
+}
+
+.fitness_thumbs li{
+	list-style: none;
+	margin-bottom: 10px;
+}
+
+.fitness_preview{
+	margin-bottom: 0px;
+	position: relative;
+	text-align: left;
+}
+
+.fitness_preview img{
+	margin: 0;
+
+}
+
+.fitness_preview p{
+	margin: 0px;
+	color:#999999;
+}
+
+.fitness_preview .caption{
+	padding: 0px !important;
+
+}
+
+.fitness_title h2{
+	margin-top: 0px !important;
+}
+
+.video-container{
+	height: 350px;
+	width: 622px;
+	margin: 0 auto;
+}
+
+.desc-container{
+	width: 622px;
+	margin: 0 auto;
+}
+
+#video_wrapper{
+	width: 100%;
+}
+
+@media (min-width: 1200px) { 
+.fitness-search{
+	padding-right: 100px;
+}
+
+}
+
+
+@media (max-width: 1200px) { 
+	.header-pnt{font-size: 24px !important;}
+
+	#testimonial_img{
+		top: 40px !important;
+	}
+	#testimonial_img img{
+		height: 150px;
+		width: auto;
+	}
+
+}
+
+@media (max-width: 992px) { 
+	.header-pnt{
+		font-size: 28px !important;
+	}
+	.fitness_thumbs {
+		max-height: none;
+		}
+
+	#testimonial_container{
+	margin-top: 100px !important;
+	}	
+	#testimonial_text{
+		font-size: 18px;
+	}
+
+	#testimonial_img{
+		top: 0px !important;
+	}
+	#testimonial_img img{
+		height: 200px;
+		width: auto;
+	}	
+}
+
+@media (max-width: 768px) { 
+.header-pnt{
+		font-size: 20px !important;
+	}
+
+}
+
+
+
+
+#player_controls{
+	width: 100%;
+	height: 120px;
+	background-color: #f5f5f5;
+	padding-top: 30px;
+	padding-left: 20px;
+}
+
+#countdown_container{
+	font-size: 12px;
+	display:block;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#countdown_container p{
+	font-size: 24px;
+}
+
+.sidebar_workout h4{
+	text-align: center;
+	border-bottom: 1px solid #f5f5f5;
+	padding: 15px 0;
+}
+
+.exercise_item{
+	padding: 0px;
+}
+
+.exercise_item li{
+	list-style: none;
+	display: inline;
+}
+
+.glyphicon-ok{
+	color:#5cb85c !important;
+}
+
+.glyphicon-remove{
+	color:#d9534f !important;
+}
+
+.thumb_row{
+	margin:0px;
+}
+
+.routine_non{
+	z-index: 2;
+}
+.ellip {
+  display: block;
+  height: 100%;
+}
+
+.ellip-line {
+  display: inline-block;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-wrap: normal;
+  max-width: 100%;
+}
+
+.ellip,
+.ellip-line {
+  position: relative;
+  overflow: hidden;
+}
+
+.recent_vid_item{
+	line-height: 1.3em;
+}
+
+.sidebar_meta{
+	color:#999999;
+	margin-top: 5px;
+}
+
+.gallery-thumbnail{
+
+}
+
+.thumb_brand{
+	position:absolute;
+	font-family: 'Bree Serif', serif !important;	
+	margin-top: -25px;
+	color: #999999;
+	line-height: 25px;
+	padding-left: 5px;
+}
+
+.single_player{
+	padding-top: 40px !important;
+}
+
+.comment_reply_container{
+	padding:0 30px;
+}
+
+.comment_reply_title{
+	padding-left: 15px;
+	font-size: 16px;
+}
+
+#comment_submit_btn{
+	color: #ffffff;
+	background-color: #515151;
+	border-color: #515151;
+	padding: 5px 10px;
+	font-size: 12px;
+	line-height: 1.5;
+	margin-left: 15px;
+}
+
+.comments-area{
+	margin-bottom: 40px !important;
+}
+
+.backend_sidebar_hr{
+	margin: 5px 0 !important;
+}
+
+.backend_sidebar_media{
+	margin-top: 5px !important;
+}
+
+.view_all_ex{
+	font-size: 12px !important;
+}
+
+.backend_sidebar_thumb{
+	height: 50px;
+	width: 50px;
+}
+
+.add_exercise_e{
+	color: #ffffff !important;
+	position: absolute;
+	top: 4px;
+	left:10px;
+}
+
+.add_exercise_e:hover{
+	color: #00B4EF !important;
+}
+
+.gallery-text{
+	background-color: #f9f9f9;
+	border:1px solid #eeeeee;
+	text-align: center
+}
+
+.routine-panel-body{
+	padding: 2px !important;
+}
+
+.routine-media-body{
+	padding:10px 0;
+}
+
+.routine-media-object{
+	height: 80px;
+	width: 80px;
+	opacity: 0.3;
+	filter: alpha(opacity=40);
+}
+
+.routine-media-a{
+	position: relative;
+}
+
+.routine-media-icon{
+	position: absolute;
+	top:20px;
+	left: 20px;
+	color:#1ABC9C !important
+}
+
+.routine_play_btn{
+	text-align: center;
+}
+
+.routine_recommend{
+	margin-top: 10px;
+}
+
+.modal-footer-routine{
+	float: left;
+}
+
+.routine_item{
+	margin:5px 0;
+}
+
+.routine_item_desc{
+	height:70px;
+}
+
+.gallery-text{
+	width:100% !important;
+}
+
+.user-page-h2{
+	margin-top: 0px !important;
+}
+
+.welcome-alert{
+	margin-bottom: 40px !important;
+}
+
+.contact-has-error{
+	border:1px solid #a94442 !important;
+}
+
+.contact-has-success{
+	border:1px solid #3c763d !important;
+}
+
+.signin_container{
+	float: none !important;
+	margin: 0 auto !important;
+}
+
+.fb-btn-container{
+	width:100%;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.apollo-seperator{
+	position: relative;
+display: block;
+margin: 0 0 30px 0;
+text-align: center;
+color: #666;
+}
+.apollo-seperator:before {
+content: "";
+position: absolute;
+top: 50%;
+left: 0;
+width: 43%;
+border-bottom: 1px solid #dddddd;
+}
+
+.apollo-seperator:after {
+content: "";
+position: absolute;
+top: 50%;
+right: 0;
+width: 43%;
+border-bottom: 1px solid #dddddd;	
+}
+
+.reg_btn_container{
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.signup_text{
+	text-align: center;
+	font-size: 14px;	
+}
+
+.signup_text a{
+	font-weight: bold;
+	color:#333;
+	}
+
+.index_intro{
+	font-size: 16px;
+}	
+
+#testimonial_container{
+	margin-top: 40px;
+	padding: 30px 30px;
+	position: relative;
+}
+
+#testimonial_content{
+	width: 100%;
+	height: 100px;
+	background: #F5FAF0;
+	padding: 5px 0 0 15px;
+}
+
+#testimonial_img{
+	position: absolute;
+	top: 20px;
+	right: 0px;
+}
+
+#testimonial_text{
+	float: left;
+	width: 65%;
+	line-height: 1.6em;
+}
+
+#trainer_info{
+	font-size: 12px;
+	padding-top: 10px;
+	color: #999999;
+}
+
+.team img{
+	height:241px !important;
+	width: auto !important;
+	border-radius: 0 !important; 
+	border: 1px solid #eeeeee;
+}
+
+.hiw-info{
+	font-size: 20px;
+}
+
+.search-field-container{
+	margin: 20px 0 40px 0;
+}
+
+.search_result_list{
+	margin:0;
+	padding:0;
+}
+
+.search_result_list li{
+	list-style: none;
+}
+
+.search_line_items{
+	transition: all 0.5s ease;
+	width: 100%;
+	height: 150px;
+	display: block;
+	background: #eeeeee;
+	border: 1px solid #dddddd;
+	padding:10px;
+	color: #666666;
+}
+
+.search_line_items:hover{
+	border: 1px solid #428bca;
+	text-decoration: none;
+}
+
+.user_result_img{
+	overflow: hidden;
+	height: 130px;
+	background: #ffffff;
+	padding: 5px;
+	margin-right: 20px;
+}
+
+.user_result_img img{
+	height: 120px;
+	width: auto;
+}
+
+.user_result_content h4{
+	margin-top: 0px !important;
+}
+
+.search-title{
+	margin-top: 150px !important;
+}
+
+.user_result_text{
+	font-size: 16px;
+}
+
+.search-input-group{
+	border: 7px solid rgb(255, 255, 255);
+    border: 7px solid rgba(255, 255, 255, .3);
+    -webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+    border-radius: 13px;
+}
+

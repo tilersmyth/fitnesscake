@@ -1,0 +1,193 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Stripe Payment Gateway v2.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-03-16 16:07+0700\n"
+"PO-Revision-Date: 2013-03-16 16:07+0700\n"
+"Last-Translator: lastuser <btd_nd@yahoo.com>\n"
+"Language-Team: BrowsePress <support@browsepress.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-SearchPath-0: ../wc-gateway-stripe\n"
+
+#: ../wc-gateway-stripe/wc-gateway-stripe.php:22
+msgid "Stripe"
+msgstr ""
+
+#: ../wc-gateway-stripe/wc-gateway-stripe.php:86
+#, php-format
+msgid ""
+"Stripe is enabled, but the <a href=\"%s\">force SSL option</a> is disabled; "
+"your checkout is not secure! Please enable SSL and ensure your server has a "
+"valid SSL certificate - Stripe will only work in test mode."
+msgstr ""
+
+#: ../wc-gateway-stripe/wc-gateway-stripe.php:97
+msgid "Enable/Disable"
+msgstr "Enable/Disable"
+
+#: ../wc-gateway-stripe/wc-gateway-stripe.php:98
+msgid "Enable Stripe"
+msgstr ""
+
+#: ../wc-gateway-stripe/wc-gateway-stripe.php:105
+msgid "Title"
+msgstr ""
+
+#: ../wc-gateway-stripe/wc-gateway-stripe.php:107
+msgid "This controls the title which the user sees during checkout."
+msgstr ""
+
+#: ../wc-gateway-stripe/wc-gateway-stripe.php:108
+msgid "Pay via Stripe"
+msgstr ""
+
+#: ../wc-gateway-stripe/wc-gateway-stripe.php:112
+msgid "Description"
+msgstr ""
+
+#: ../wc-gateway-stripe/wc-gateway-stripe.php:114
+msgid "This controls the description which the user sees during checkout."
+msgstr ""
+
+#: ../wc-gateway-stripe/wc-gateway-stripe.php:118
+msgid "Test Secret Key"
+msgstr ""
+
+#: ../wc-gateway-stripe/wc-gateway-stripe.php:120
+msgid "Get your Test Secret Key credentials from Stripe"
+msgstr ""
+
+#: ../wc-gateway-stripe/wc-gateway-stripe.php:125
+msgid "Test Public Key"
+msgstr ""
+
+#: ../wc-gateway-stripe/wc-gateway-stripe.php:127
+msgid "Get your Test Public Key credentials from Stripe"
+msgstr ""
+
+#: ../wc-gateway-stripe/wc-gateway-stripe.php:132
+msgid "Live Secret Key"
+msgstr ""
+
+#: ../wc-gateway-stripe/wc-gateway-stripe.php:134
+msgid "Get your Live Secret Key credentials from Stripe"
+msgstr ""
+
+#: ../wc-gateway-stripe/wc-gateway-stripe.php:139
+msgid "Live Public Key"
+msgstr ""
+
+#: ../wc-gateway-stripe/wc-gateway-stripe.php:141
+msgid "Get your Live Public Key credentials from Stripe"
+msgstr ""
+
+#: ../wc-gateway-stripe/wc-gateway-stripe.php:169
+msgid "CVC"
+msgstr ""
+
+#: ../wc-gateway-stripe/wc-gateway-stripe.php:170
+msgid "Require customer to enter credit card CVC code"
+msgstr ""
+
+#: ../wc-gateway-stripe/wc-gateway-stripe.php:177
+msgid "Test Mode"
+msgstr ""
+
+#: ../wc-gateway-stripe/wc-gateway-stripe.php:178
+msgid "Enable Stripe Test"
+msgstr ""
+
+#: ../wc-gateway-stripe/wc-gateway-stripe.php:180
+msgid "Process transactions in Test Mode via the Stripe Test account."
+msgstr ""
+
+#: ../wc-gateway-stripe/wc-gateway-stripe.php:184
+msgid "Debug"
+msgstr ""
+
+#: ../wc-gateway-stripe/wc-gateway-stripe.php:186
+msgid "Enable logging (<code>woocommerce/logs/stripe.txt</code>)"
+msgstr ""
+
+#: ../wc-gateway-stripe/wc-gateway-stripe.php:285
+#: ../wc-gateway-stripe/wc-gateway-stripe.php:386
+msgid "Credit Card number"
+msgstr ""
+
+#: ../wc-gateway-stripe/wc-gateway-stripe.php:290
+msgid "Expiration date"
+msgstr ""
+
+#: ../wc-gateway-stripe/wc-gateway-stripe.php:348
+#, php-format
+msgid "Order %s"
+msgstr ""
+
+#: ../wc-gateway-stripe/wc-gateway-stripe.php:376
+msgid "Thank you for your order, please wait to pay with Stripe."
+msgstr ""
+
+#: ../wc-gateway-stripe/wc-gateway-stripe.php:525
+msgid "<strong>Card Number</strong> is a required field"
+msgstr ""
+
+#: ../wc-gateway-stripe/wc-gateway-stripe.php:530
+msgid "<strong>Card Security Code</strong> is a required field"
+msgstr ""
+
+#: ../wc-gateway-stripe/wc-gateway-stripe.php:535
+msgid "<strong>Month</strong> is a required field"
+msgstr ""
+
+#: ../wc-gateway-stripe/wc-gateway-stripe.php:540
+msgid "<strong>Year</strong> is a required field"
+msgstr ""
+
+#: ../wc-gateway-stripe/wc-gateway-stripe.php:557
+msgid "Request form: "
+msgstr ""
+
+#: ../wc-gateway-stripe/wc-gateway-stripe.php:566
+msgid "Order key do not match!"
+msgstr ""
+
+#: ../wc-gateway-stripe/wc-gateway-stripe.php:579
+msgid "Post paramaters: "
+msgstr ""
+
+#: ../wc-gateway-stripe/wc-gateway-stripe.php:618
+#, php-format
+msgid "Create plan id: %s"
+msgstr ""
+
+#: ../wc-gateway-stripe/wc-gateway-stripe.php:647
+msgid "Sign-up Fee"
+msgstr ""
+
+#: ../wc-gateway-stripe/wc-gateway-stripe.php:656
+#: ../wc-gateway-stripe/wc-gateway-stripe.php:658
+msgid "Error can not create plan"
+msgstr ""
+
+#: ../wc-gateway-stripe/wc-gateway-stripe.php:668
+msgid "Stripe payment completed"
+msgstr ""
+
+#: ../wc-gateway-stripe/wc-gateway-stripe.php:677
+msgid "Payment error"
+msgstr ""
+
+#: ../wc-gateway-stripe/wc-gateway-stripe.php:701
+msgid "Error! "
+msgstr ""
+
+#: ../wc-gateway-stripe/includes/gateway-response.php:34
+msgid "response fail"
+msgstr ""

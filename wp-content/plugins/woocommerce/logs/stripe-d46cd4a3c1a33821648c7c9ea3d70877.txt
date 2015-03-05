@@ -1,0 +1,59 @@
+08-02-2014 @ 17:29:59 - Redirect url: http://localhost/~tylersmith/fitness/jesse-ruiz/checkout/?key=wc_order_53dd585760ee6&order=214
+08-02-2014 @ 17:30:22 - Post form: Array
+(
+    [_wpnonce] => dc78ee0fac
+    [_wp_http_referer] => /~tylersmith/fitness/jesse-ruiz/checkout/?key=wc_order_53dd585760ee6&order=214
+    [key] => wc_order_53dd585760ee6
+    [order] => 214
+    [stripe_card_num] => 4000056655665556
+    [stripe_card_cvc] => 232
+    [stripe_cc_month] => 02
+    [stripe_cc_year] => 2017
+    [stripe_token] => tok_14NA542FMT1zkWmtSJLjZnHD
+)
+
+08-02-2014 @ 17:44:49 - Redirect url: http://localhost/~tylersmith/fitness/jesse-ruiz/checkout/?key=wc_order_53dd5bd18948d&order=215
+08-02-2014 @ 17:44:57 - Post form: Array
+(
+    [_wpnonce] => 37c314b07d
+    [_wp_http_referer] => /~tylersmith/fitness/jesse-ruiz/checkout/?key=wc_order_53dd5bd18948d&order=215
+    [key] => wc_order_53dd5bd18948d
+    [order] => 215
+    [stripe_card_num] => 4000000000000341
+    [stripe_card_cvc] => 332
+    [stripe_cc_month] => 02
+    [stripe_cc_year] => 2018
+    [stripe_token] => tok_14NAJC2FMT1zkWmt87IIBTCx
+)
+
+08-02-2014 @ 18:06:42 - Redirect url: http://localhost/~tylersmith/fitness/jesse-ruiz/checkout/?key=wc_order_53dd60f20cb26&order=215
+08-02-2014 @ 18:18:53 - Error! No such customer: 215
+08-02-2014 @ 18:19:14 - Redirect url: http://localhost/~tylersmith/fitness/jesse-ruiz/checkout/?key=wc_order_53dd63e23c4d1&order=216
+08-02-2014 @ 18:19:36 - Post form: Array
+(
+    [_wpnonce] => 37c314b07d
+    [_wp_http_referer] => /~tylersmith/fitness/jesse-ruiz/checkout/?key=wc_order_53dd63e23c4d1&order=216
+    [key] => wc_order_53dd63e23c4d1
+    [order] => 216
+    [stripe_card_num] => 5555555555554444
+    [stripe_card_cvc] => 123
+    [stripe_cc_month] => 02
+    [stripe_cc_year] => 2017
+    [stripe_token] => tok_14NAqj2FMT1zkWmtq379HQIW
+)
+
+08-04-2014 @ 14:23:04 - Redirect url: http://localhost/~tylersmith/fitness/jesse-ruiz/checkout/?key=wc_order_53dfcf88651df&order=217
+08-04-2014 @ 14:27:33 - Redirect url: http://localhost/~tylersmith/fitness/jesse-ruiz/checkout/?key=wc_order_53dfd095553f7&order=217
+08-04-2014 @ 14:27:58 - Post form: Array
+(
+    [_wpnonce] => be7bf181ac
+    [_wp_http_referer] => /~tylersmith/fitness/jesse-ruiz/checkout/?key=wc_order_53dfd095553f7&order=217
+    [key] => wc_order_53dfd095553f7
+    [order] => 217
+    [stripe_card_num] => 4242424242424242
+    [stripe_card_cvc] => 123
+    [stripe_cc_month] => 02
+    [stripe_cc_year] => 2018
+    [stripe_token] => tok_14NqBe2FMT1zkWmtywpjcY6x
+)
+

@@ -1,0 +1,516 @@
+/*
+Theme Name: Fitness Trainer
+
+/* =Reset
+-------------------------------------------------------------- */
+
+.header_learn_more, .header_learn_more:hover{
+	color: #ffffff;
+	text-decoration: none;
+}
+.submit_error{
+	line-height: 2.4em;
+	margin-left: 10px;
+	color: #a94442;
+}
+
+.setup1{
+	max-width: 700px;
+	margin:0 auto;
+}
+
+.slider{margin: 0 20px;}
+
+.time_slider{
+	margin-top: 5px;
+}
+
+.signin_container, .user_container{
+	margin-top: 40px;
+}
+
+.settings_container{
+	margin-bottom: 50px;
+}
+
+.user_menu{
+	min-width: 130px;
+}
+
+.user_menu_icon{
+	margin-right: 4px;
+}
+
+.user_menu a:hover{
+	background: #00B4FF;
+	background: linear-gradient(top, #00B4FF, #009DE0);
+	background: -webkit-linear-gradient(top, #00B4FF, #009DE0);
+}
+
+.navbar-brand{
+	font-family: 'Bree Serif', serif !important;
+}
+
+.setup_subtext{
+	font-size: 16px;
+}
+
+.wrapper-backend{
+	margin-bottom: -60px;
+	padding-top: 50px;
+	padding-bottom: 60px;
+}
+
+.fitness_thumbs {
+	overflow: scroll;
+	padding: 0px !important;
+	max-height: 336px;
+}
+
+.fitness_thumbs li{
+	list-style: none;
+	margin-bottom: 10px;
+}
+
+.fitness_preview{
+	margin-bottom: 0px;
+	position: relative;
+	text-align: left;
+}
+
+.fitness_preview img{
+	margin: 0;
+
+}
+
+.fitness_preview p{
+	margin: 0px;
+	color:#999999;
+}
+
+.fitness_preview .caption{
+	padding: 0px !important;
+
+}
+
+.fitness_title h2{
+	margin-top: 0px !important;
+}
+
+.video-container{
+	height: 350px;
+	width: 622px;
+	margin: 0 auto;
+}
+
+.desc-container{
+	width: 622px;
+	margin: 0 auto;
+}
+
+#video_wrapper{
+	width: 100%;
+}
+
+@media (min-width: 1200px) { 
+		#test_tag{height: 46px;
+		padding: 10px 16px;
+		font-size: 18px;
+		line-height: 1.33;
+	}
+}
+
+@media (max-width: 1200px) { 
+	.header-pnt{font-size: 24px !important;}
+
+}
+
+@media (max-width: 992px) { 
+	.header-pnt{
+		font-size: 28px !important;
+	}
+	.fitness_thumbs {
+		max-height: none;
+		}
+}
+
+@media (max-width: 768px) { 
+.header-pnt{
+		font-size: 20px !important;
+	}
+
+}
+
+
+
+
+#player_controls{
+	width: 100%;
+	height: 120px;
+	background-color: #f5f5f5;
+	padding-top: 30px;
+	padding-left: 20px;
+}
+
+#countdown_container{
+	font-size: 12px;
+	display:block;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#countdown_container p{
+	font-size: 24px;
+}
+
+.sidebar_workout h4{
+	text-align: center;
+	border-bottom: 1px solid #f5f5f5;
+	padding: 15px 0;
+}
+
+.exercise_item{
+	padding: 0px;
+}
+
+.exercise_item li{
+	list-style: none;
+	display: inline;
+}
+
+.glyphicon-ok{
+	color:#5cb85c !important;
+}
+
+.glyphicon-remove{
+	color:#d9534f !important;
+}
+
+.thumb_row{
+	margin:0px;
+}
+
+.routine_non{
+	z-index: 2;
+}
+.ellip {
+  display: block;
+  height: 100%;
+}
+
+.ellip-line {
+  display: inline-block;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-wrap: normal;
+  max-width: 100%;
+}
+
+.ellip,
+.ellip-line {
+  position: relative;
+  overflow: hidden;
+}
+
+.recent_vid_item{
+	line-height: 1.3em;
+}
+
+.sidebar_meta{
+	color:#999999;
+	margin-top: 5px;
+}
+
+.gallery-thumbnail{
+
+}
+
+.thumb_brand{
+	position:absolute;
+	font-family: 'Bree Serif', serif !important;	
+	margin-top: -25px;
+	color: #999999;
+	line-height: 25px;
+	padding-left: 5px;
+}
+
+.single_player{
+	padding-top: 40px !important;
+}
+
+.comment_reply_container{
+	padding:0 30px;
+}
+
+.comment_reply_title{
+	padding-left: 15px;
+	font-size: 16px;
+}
+
+#comment_submit_btn{
+	color: #ffffff;
+	background-color: #515151;
+	border-color: #515151;
+	padding: 5px 10px;
+	font-size: 12px;
+	line-height: 1.5;
+	margin-left: 15px;
+}
+
+.comments-area{
+	margin-bottom: 40px !important;
+}
+
+.backend_sidebar_hr{
+	margin: 5px 0 !important;
+}
+
+.backend_sidebar_media{
+	margin-top: 5px !important;
+}
+
+.view_all_ex{
+	font-size: 12px !important;
+}
+
+.backend_sidebar_thumb{
+	height: 50px;
+	width: 50px;
+}
+
+.add_exercise_e{
+	color: #ffffff !important;
+	position: absolute;
+	top: 4px;
+	left:10px;
+}
+
+.add_exercise_e:hover{
+	color: #00B4EF !important;
+}
+
+.gallery-text{
+	background-color: #f9f9f9;
+	border:1px solid #eeeeee;
+	text-align: center
+}
+
+.routine-panel-body{
+	padding: 2px !important;
+}
+
+.routine-media-body{
+	padding:10px 0;
+}
+
+.routine-media-object{
+	height: 80px;
+	width: 80px;
+	opacity: 0.3;
+	filter: alpha(opacity=40);
+}
+
+.routine-media-a{
+	position: relative;
+}
+
+.routine-media-icon{
+	position: absolute;
+	top:20px;
+	left: 20px;
+	color:#1ABC9C !important
+}
+
+.routine_play_btn{
+	text-align: center;
+}
+
+.routine_recommend{
+	margin-top: 10px;
+}
+
+.modal-footer-routine{
+	float: left;
+}
+
+.routine_item{
+	margin:5px 0;
+}
+
+.routine_item_desc{
+	height:70px;
+}
+
+.gallery-text{
+	width:100% !important;
+}
+
+.user-page-h2{
+	margin-top: 0px !important;
+}
+
+.welcome-alert{
+	margin-bottom: 40px !important;
+}
+
+.contact-has-error{
+	border:1px solid #a94442 !important;
+}
+
+.contact-has-success{
+	border:1px solid #3c763d !important;
+}
+
+
+.fb-btn-container{
+	width:100%;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.apollo-seperator{
+	position: relative;
+display: block;
+margin: 0 0 30px 0;
+text-align: center;
+color: #666;
+}
+.apollo-seperator:before {
+content: "";
+position: absolute;
+top: 50%;
+left: 0;
+width: 43%;
+border-bottom: 1px solid #dddddd;
+}
+
+.apollo-seperator:after {
+content: "";
+position: absolute;
+top: 50%;
+right: 0;
+width: 43%;
+border-bottom: 1px solid #dddddd;	
+}
+
+.reg_btn_container{
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.signup_text{
+	text-align: center;
+	font-size: 14px;	
+}
+
+.signup_text a{
+	font-weight: bold;
+	color:#333;
+	}
+
+.label-followers{
+	font-size: 16px;
+}
+
+.value_prop_wrapper{
+	padding:30px !important;
+	
+}
+
+.value_prop_container{
+	width: 100% !important;
+	min-height: 400px;
+	background: #fafbfd;
+	border: 1px solid #d1d3d2;
+	font-size: 16px;
+	line-height: 2em;
+	padding: 10px;
+}	
+
+.value_prop_img_container{
+	width:250px;
+	height: 300px;
+	background: #ffffff;
+	border: 1px solid #eeeeee;
+	padding: 10px;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px #666666;
+          box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px #666666;
+    float: left;
+    margin: -30px 15px 15px -30px;
+}
+
+.value_prop_img_container_inner{
+	width:230px;
+	height: 280px;
+	overflow: hidden;
+}
+
+.value_prop_img{
+	max-height: 320px;
+	width: auto;
+}
+
+.index_login{
+	padding: 50px 30px 30px 0;
+
+}
+
+#main_recent_vids_title{
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #999999;
+	line-height: 1em;
+	margin-bottom: 10px;
+	text-shadow: 0 1px 0 #fff;
+	width: 100%;
+	float: left;
+}
+
+.main_recent_activity{
+	padding: 0px;
+}
+
+.main_recent_activity li{
+	list-style: none;
+	display: inline-block;
+	margin: 0 5px;
+	width:135px;
+}
+
+.recent_activty_img{
+	height: 100px;
+	width:auto;
+}
+
+.recent_activty_img_time{
+	font-size: 12px;
+	margin: 0px !important;
+	line-height: 1.5em;
+	text-align: center;
+	color: #999999;
+}
+
+.facebook_share_trainer{
+	margin-top: 15px;
+}
+
+
+.order-details-fitness{
+	display: block; text-align:center;
+	margin-top: 30px !important;
+}
+
+.order-details-fitness li{
+	 display: inline-block; 
+	 float:none !important;
+}
+
+.autocomplete-suggestions { border: 1px solid #999; background: #FFF; cursor: default; overflow: auto; -webkit-box-shadow: 1px 4px 3px rgba(50, 50, 50, 0.64); -moz-box-shadow: 1px 4px 3px rgba(50, 50, 50, 0.64); box-shadow: 1px 4px 3px rgba(50, 50, 50, 0.64); }
+.autocomplete-suggestion { padding: 2px 5px; white-space: nowrap; overflow: hidden; }
+.autocomplete-no-suggestion { padding: 2px 5px;}
+.autocomplete-selected { background: #F0F0F0; }
+.autocomplete-suggestions strong { font-weight: normal; color: #3399FF; }
+
+.exercise_search{
+	margin-bottom: 30px;
+}
